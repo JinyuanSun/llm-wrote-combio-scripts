@@ -24,7 +24,7 @@ Spearman correlation coefficient: 0.9383 (p-value: 3.0193e-202)
 Basically, the results are very close to the freesasa.
 
 **reflection**:  
-With multiple rounds of chat, the model finally understood the task and implemented the script. The script is very simple and easy to understand. The results are very close to the freesasa, which is a good sign. However, the model still needs to improve the efficiency of the script. The current script is very slow:
+With multiple rounds of chat, the model finally understood the task and implemented the script. The script is very simple and easy to understand. The results are very close to the freesasa, which is a good sign. However, the model still needs to improve the efficiency of the script. The current script is very slow:  
 `python sasa2.py 1pga.pdb -d cpu  1.96s user 1.55s system 184% cpu 1.900 total`  
 
 `freesasa 1pga.pdb --output=1pga_freesasa.pdb --format=pdb  0.02s user 0.00s system 83% cpu 0.028 total`
